@@ -1,0 +1,43 @@
+Building my Framework structure based on POM and Cucumber principles
+on JAVA level,
+    right click on Java
+    New -> Package
+    name: com.cybertek.pages        (per POM)
+    right click on Java
+    New -> Package
+    name: com.cybertek.utilities    (per POM)
+    right click on Java
+    New -> Package
+    name: com.cybertek.runners      (per Cucumber)
+    right click on Java
+    New -> Package
+    name: com.cybertek.step_defs    (per Cucumber)
+on TEST level,
+    right click on test
+    New -> Directory
+    name: resources                 (per Cucumber)
+    right click on resources folder that you just created
+    Mark Directory as -> Test Resources Root
+    right click on resources
+    New -> Directory
+    name: features                  (per Cucumber)
+
+
+    Adding our high level configuration.properties file on Project level
+
+    New -> File
+    Name: configuration.properties
+
+THIS IS NOT A COMMON PRACTICE, but if you wanna keep your notes within your project,
+you can simply create files in resourses and do as you wish
+
+this is how we did:
+        right click on resources
+        New -> directory
+        name : project_notes
+
+        Then: every time you want a new file in this project_notes
+        right click on project_notes
+        New -> File
+        name: uptoyou.whatever(store it as .txt if prompted)
+
